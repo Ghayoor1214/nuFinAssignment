@@ -10,21 +10,6 @@ This is a Flask application designed to process an Excel file and calculate valu
 - openpyxl
 
 ## Setup Instructions
-Sure, here is a sample `README.md` file for your Flask application that includes instructions on how to run the project:
-
-```markdown
-# Flask Application
-
-This is a Flask application designed to process an Excel file and calculate values for specific columns based on the provided formulas. The results are then exported as a CSV file.
-
-## Requirements
-
-- Python 3.6+
-- Flask
-- pandas
-- openpyxl
-
-## Setup Instructions
 
 1. **Clone the Repository**
 
@@ -59,7 +44,6 @@ This is a Flask application designed to process an Excel file and calculate valu
 
    ```bash
    flask run
-   ```
 
    The application will be available at `http://127.0.0.1:5000/`.
 
