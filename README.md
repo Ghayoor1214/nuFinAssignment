@@ -14,8 +14,8 @@ This is a Flask application designed to process an Excel file and calculate valu
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/Ghayoor1214/nuFinAssignment.git)
+   cd nuFinAssignment
    ```
 
 2. **Create a Virtual Environment**
