@@ -1,6 +1,3 @@
-Sure, here is a sample `README.md` file for your Flask application that includes instructions on how to run the project:
-
-```markdown
 # Flask Application
 
 This is a Flask application designed to process an Excel file and calculate values for specific columns based on the provided formulas. The results are then exported as a CSV file.
@@ -40,7 +37,6 @@ This is a Flask application designed to process an Excel file and calculate valu
 
    ```bash
    python -m venv env
-   ```
 
 3. **Activate the Virtual Environment**
 
