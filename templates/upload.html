@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Upload File</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+            color: #343a40;
+        }
+        .btn-primary {
+            background-color: #c3d8ee;
+            border-color: #007bff;
+            font-size: 18px;
+        }
+        .btn-primary:hover {
+            background-color: c3d8ee;
+            border-color: #0056b3;
+        }
+        .form-label {
+            font-size: 16px;
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Upload Excel or CSV File</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form method="post" enctype="multipart/form-data" action="{{ url_for('upload_file') }}">
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Choose File</label>
+                        <input class="form-control" type="file" name="file" accept=".csv, .xls, .xlsx" id="formFile">
+                    </div>
+                    <button class="btn btn-primary w-100" type="submit">Upload</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
